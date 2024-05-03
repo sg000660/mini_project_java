@@ -1,0 +1,165 @@
+body{
+    background:#e8f2ef;
+}
+header {
+    background-color:#1052ac;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#left h3 {
+    margin: 0;
+    font-family:sans-serif;
+    font-style: italic;
+}
+
+#right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#right ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#right ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#right ul li a:hover {
+    text-decoration: underline;
+    background: white;
+    color:black;
+}
+
+/*image css*/
+#ig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-style: solid;
+border-width: 3px;
+border-color: black;
+    padding: 15px;
+   border-radius: 20px;
+    height: 400px; /* Set the height of the container to match the image height */
+}
+
+#ig img {
+  max-width: 50%;  
+    max-height: 80%;  
+ border-radius: 25px;
+ align-items: center;
+
+}
+
+#ig:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
+#block{
+height:90;
+width:750;
+color:black;
+}
+
+#content{
+width:430px;
+margin:0 auto;
+background:#222;
+border:1px solod #000;
+/* gradients*/
+background:-moz-linear-gradient(top, #666, #222);
+background:-webkit-gradient(linear,left top,left bottom, from(#666), to(#222)
+color-stop(0.5,#333));
+}
+#d h2{
+color:black;
+line-height:30px;
+text-align:center;
+/*background:#64d6cf;*/
+}
+#d p{
+
+    font-size: 20px;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+#ct {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#div1, #div2, #div3 {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#div1 img, #div2 img, #div3 img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#div1 h2, #div2 h2, #div3 h2 {
+    text-align: center;
+    color: #333;
+}
+
+#div1 p, #div2 p, #div3 p {
+    color:black;
+    font-size: 16px;
+}
+
+/*footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#footer {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
